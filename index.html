@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>موقع حاتم هوار</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+  body {
+    font-family: 'Cairo', sans-serif;
+    background: #1a1a1a;
+    color: #d4af37; /* ذهبي */
+    margin: 0; padding: 20px;
+    display: flex; flex-direction: column; align-items: center;
+  }
+
+  .profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 6px solid #d4af37;
+    box-shadow: 0 0 20px 5px #ffd700cc; /* توهج ذهبي */
+    overflow: hidden;
+    margin-bottom: 25px;
+  }
+  .profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: drop-shadow(0 0 3px #ffd700);
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 5px;
+  }
+
+  .info {
+    max-width: 500px;
+    background: #222;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #d4af37bb;
+    margin-bottom: 35px;
+    line-height: 1.6;
+  }
+
+  .info h2 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 8px;
+  }
+
+  .info p {
+    margin: 6px 0;
+  }
+
+  .icons {
+    display: flex;
+    gap: 30px;
+  }
+
+  .icon-btn {
+    font-weight: bold;
+    font-size: 1.3rem;
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    user-select: none;
+  }
+
+  .icon-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 50px 5px;
+  }
+
+  .youtube {
+    background: #e62117;
+    box-shadow-color: #ff0000;
+    box-shadow: 0 0 25px 5px #ff3b3b;
+  }
+  .youtube:hover {
+    box-shadow: 0 0 60px 10px #ff0000;
+  }
+
+  .instagram {
+    background: #d6249f;
+    box-shadow: 0 0 25px 5px #ff66cc;
+  }
+  .instagram:hover {
+    box-shadow: 0 0 60px 10px #ff33cc;
+  }
+
+  .facebook {
+    background: #1877f2;
+    box-shadow: 0 0 25px 5px #66a3ff;
+  }
+  .facebook:hover {
+    box-shadow: 0 0 60px 10px #3380ff;
+  }
+
+</style>
+</head>
+<body>
+
+  <div class="profile-img" aria-label="صورة بروفايل حاتم هوار">
+    <img src="1.jpeg" alt="صورة شخصية حاتم هوار" />
+  </div>
+
+  <div class="info" role="region" aria-labelledby="personal-info-title">
+    <h2 id="personal-info-title">🧾 معلومات شخصية:</h2>
+    <p><strong>الإسم الكامل:</strong> حاتم هوار</p>
+    <p><strong>الكنية:</strong> هوار</p>
+    <p><strong>اللقب:</strong> HR7</p>
+    <p><strong>تاريخ الازدياد:</strong> 2 نونبر 2007</p>
+    <p><strong>السن:</strong> 17 سنة (تقريباً فـ2025)</p>
+    <p><strong>مكان الإزدياد:</strong> براشوة، نواحي الخميسات، المغرب</p>
+
+    <h2>🎮 مجال الاهتمام:</h2>
+    <p>ألعاب الفيديو (The Forest، eFootball 2024)</p>
+    <p>قصص رعب (مثلاً: فيديو كتاب شمس المعارف)</p>
+    <p>فيديوهات ترفيهية وتفاعلية (رياكشنات)</p>
+    <p>كرة القدم (ريال مدريد، الوداد البيضاوي)</p>
+
+    <h2>🖥️ المهارات التقنية:</h2>
+    <p>تصميم ثلاثي الأبعاد: محترف في Blender</p>
+    <p>مونتاج: محترف في CapCut، Adobe Premiere، After Effects</p>
+    <p>غرافيك ديزاين: محترف في Photoshop، قادر على التلاعب بالصور</p>
+    <p>مهتم بالأمن السيبراني</p>
+  </div>
+
+  <div class="icons" role="region" aria-label="روابط مواقع التواصل الاجتماعي">
+    <a href="https://www.youtube.com/channel/UCkx4mKxyJJq1qtbTzC53RgA" target="_blank" rel="noopener" class="icon-btn youtube" aria-label="قناة يوتيوب">
+      YouTube<br>channel
+    </a>
+    <a href="https://www.instagram.com/hatim.haouar.7/" target="_blank" rel="noopener" class="icon-btn instagram" aria-label="حساب إنستغرام">
+      Instagram
+    </a>
+    <a href="https://web.facebook.com/hatim.haouar/" target="_blank" rel="noopener" class="icon-btn facebook" aria-label="حساب فيسبوك">
+      Facebook
+    </a>
+  </div>
+
+</body>
+</html>
